@@ -1,1 +1,44 @@
-/* Add your styles here. */
+/* Type Selectors */
+p{
+    color:palevioletred
+}
+
+h1{
+    color:#E75480
+    
+    }
+
+ul{
+    color:hotpink
+}
+
+/* Class selectors */
+.Bold {
+    font-weight:bold;
+}
+
+
+/* ID selectors */
+#unique_identifier {
+    font-style:italic;
+}
+
+/* Descendant selectors */
+ul > li:hover{ 
+    background-color:lavender; 
+}
+
+.List:hover {
+       background-color: purple;
+    }
+
+@media (max-width: 600px) {
+  body {
+    background-color: pink;
+  }
+}
+
+img {
+  border: 8px solid black;
+}
+
